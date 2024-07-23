@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
+#include <stdbool.h>
 #include "check_battery_health.h"
 
 int currentLanguage = ENGLISH;
