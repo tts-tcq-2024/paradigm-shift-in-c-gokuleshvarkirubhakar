@@ -83,7 +83,7 @@ int batteryIsOk(float temperature, float soc, float chargeRate) {
     float paramVal[MAX_PARAMETERS] = {temperature, soc, chargeRate};
 
     for(int idx=0; idx < MAX_PARAMETERS; idx++) {
-        msg = checkIfValueInRange(paramVal[idx], &Config[idx]); 
+        msg = checkIfValueWithinLimits(paramVal[idx], &Config[idx]); 
         dispMessage(Config[idx].name, Config[idx].msgs[currentLanguage][msg]);
         status &= GET_STS_FROM_MSG(msg);
     }
