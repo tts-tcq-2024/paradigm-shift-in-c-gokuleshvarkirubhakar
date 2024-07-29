@@ -59,3 +59,12 @@ Shorten the Semantic distance
 - Functional to express relation between input and output
 - Object oriented to encapsulate state with actions
 - Apect oriented to capture repeating aspects
+
+## Extended functionalities
+
+### Early warning system ###
+- Introduced early warnings to take preventive action before alarms are triggered
+- Warning level set with tolerance of 5% of the upper limit of Temperature, State of charge and Charge rate.
+
+### Multi-language support
+- Expanded usability to German-speaking customers by introducing support for additional languages
